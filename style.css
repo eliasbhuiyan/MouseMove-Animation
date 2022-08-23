@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.banner{
+    background: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.boy1{
+    width: 200px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+.boy2 {
+    width: 280px;
+    position: absolute;
+    bottom: 0px;
+    right: 340px;
+}
+.kit1 {
+    width: 150px;
+    position: absolute;
+    top: 95px;
+    left: 210px;
+}
+.kit2 {
+    width: 140px;
+    position: absolute;
+    top: 50px;
+    right: 490px;
+}
+.sun {
+    width: 140px;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+}
+.eye1 {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 39px;
+    left: 42px;
+}
+.eye2 {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    left: 81px;
+}
+.dot1 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    z-index: 1;
+}
+.dot2 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    z-index: 1;
+}
